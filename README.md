@@ -59,7 +59,7 @@ browser.
 
 	Python:		Accessible via WeTTY
 
-	SQLite Web:	http://127.0.01:8003
+	SQLite Web:	http://127.0.0.1:8003
 
 	WeTTY:		http://127.0.0.1:8002
 
@@ -80,3 +80,8 @@ Python, SQLite, and vim. For convenience the terminal/console management utility
 Press ENTER if the container's shell prompt does not appear. To exit the 
 container and leave it running press CTRL+P, CTRL+Q; this is the preferred 
 method. To exit the container and stop it type 'exit'.
+
+Start the SQLite Web database browser by accessing the command line via WeTTY as indicated above and typing,
+
+	$ sqlite_web.sh DATABASE_NAME
+Replace DATABASE_NAME with the name of an existing SQLite database (database.sqlite). Access the database browser as indicated above.
